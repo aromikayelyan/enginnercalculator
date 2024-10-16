@@ -32,11 +32,11 @@ int main()
 	setlocale(LC_ALL, "RU");
 	int selection;
 
-	cout << "Выберите действие которое хотите выполнить" << endl;
-	cout << "1 - Считаит плошадь Окружности" << endl;
-	cout << "2 - Считаит факториал числа" << endl;
-	cout << "3 - Считаит плошадь прямоугольника(квадрата)" << endl;
-	cout << "4 - переводить мили в километры" << endl;
+	cout << "Select the action you want to perform" << endl;
+	cout << "1 - Calculates the area of ​​a circle" << endl;
+	cout << "2 - Calculates the factorial of a number" << endl;
+	cout << "3 - Calculates the area of ​​a rectangle (square)" << endl;
+	cout << "4 - convert miles to kilometers" << endl;
 
 	cout << endl;
 	cin >> selection;
