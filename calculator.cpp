@@ -45,53 +45,53 @@ int main()
 	{
 	case 1:
 		int r;
-		cout << "Введите радиус окружности, чтобы считать площадь" << endl;
+		cout << "Enter the radius of a circle to calculate the area" << endl;
 		cout << endl;
 		cin >> r;
 		cout << endl;
-		cout << "Плошадь окружности с радиусом " << r << " равна\n"
+		cout << "Area of ​​a circle with radius " << r << " equal to\n"
 			 << "\t" << S(r) << endl;
 		break;
 
 	case 2:
 		int f;
-		cout << "Введите число факториал которого хотите считать" << endl;
+		cout << "Enter the factorial number you want to calculate" << endl;
 		cout << endl;
 		cin >> f;
 		cout << endl;
 		fact(f);
-		cout << "факториал числа  " << f << "\n  Равна   " << fact(f) << endl;
+		cout << "factorial of a number  " << f << "\n equal   " << fact(f) << endl;
 
 		break;
 	case 3:
 		int A, B;
-		cout << "Введите первую сторону прямоугольника\n";
+		cout << "Enter the first side of the rectangle\n";
 		cout << endl;
 		cin >> A;
 		cout << endl;
-		cout << "Введите вторую сторону прямоугольника\n";
+		cout << "Enter the second side of the rectangle\n";
 		cout << endl;
 		cin >> B;
 		cout << endl;
 		sq(A, B);
-		cout << "Плошадь прямоугольника равна \t" << sq(A, B) << endl;
+		cout << "The area of ​​the rectangle is \t" << sq(A, B) << endl;
 		break;
 
 	case 4:
 	{
 		int ml, ft, km, m;
-		cout << "Введите растояние в милях и футах" << endl;
+		cout << "Enter distance in miles and feet" << endl;
 		cin >> ml >> ft;
 		double distmile = ml + (double)ft / ftinmile;
 		double distkm = distmile * kminmile;
 		km = distkm;
 		m = ((distkm - km) * 1000);
-		cout << "расстояние в км и метрах" << endl;
+		cout << "distance in km and meters" << endl;
 		cout << " " << km << " км:" << m << " м:" << endl;
 	}
 	break;
 
 	default:
-		cout << "Ошибка. Такого пункта нет в менью" << endl;
+		cout << "Error. There is no such item in the menu" << endl;
 	}
 }
